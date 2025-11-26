@@ -28,10 +28,7 @@ for (i in 15:36) {
 
 TissueSamples[108258,37:38] <- NA
 
-Dataset <- read.csv("/Volumes/maya/Cambridge/Colleen paper/Dataset_9.26.25.csv")
-fr <- Dataset[which(Dataset$language == "fr | en"),]
-fr <- Dataset[which(Dataset$publisher == "UMS PatriNat (OFB-CNRS-MNHN), Paris"),]
-
+#Dataset <- read.csv("/Volumes/maya/Cambridge/Colleen paper/Dataset_9.26.25.csv")
 
 ####spatial
 
